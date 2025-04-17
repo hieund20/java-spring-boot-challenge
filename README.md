@@ -48,19 +48,22 @@ Day 2:
 🧩 Đăng ký / Đăng nhập người dùng (Authentication)
 
 
-Học được: Spring Security, JWT, xử lý phân quyền
-
 - Tạo API đăng ký người dùng mới (POST /auth/register)
 - API đăng nhập và trả về JWT (POST /auth/login)
 - Bảo vệ các API /tasks để chỉ người đã đăng nhập mới sử dụng được
 - Chỉ lấy danh sách công việc của user đó thôi
 
+
+📚 Học được: Spring Security, JWT, xử lý phân quyền
+
+
 🧩 Tìm kiếm và phân trang
 
-
-Học được: Spring Data JPA Query, Pageable, Sorting
 
 - API: GET /tasks?keyword=...&status=...&page=0&size=10
 - Cho phép tìm theo từ khóa (trong tiêu đề/mô tả)
 - Lọc theo trạng thái (ALL / DONE / TODO)
 - Thêm phân trang (Pageable)
+
+
+📚 Học được: Spring Data JPA Query, Pageable, Sorting
