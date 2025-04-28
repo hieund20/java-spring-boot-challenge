@@ -62,4 +62,5 @@ public class ContractImageService {
 //curl --location 'http://localhost:8080/contract-images/upload' \
 //        --form 'files=@"/C:/Users/hieund/Downloads/Group 55.png"' \
 //        --form 'title="hieu"' \
-//        --form 'description="hieu"'
+//        --form 'description="hieu"' \
+//        --form 'files=@"/C:/Users/hieund/Downloads/Agile.png"'
